@@ -1,0 +1,2 @@
+- name: myrole
+  src: https://github.com/swatinarvekar/MyRole.git
