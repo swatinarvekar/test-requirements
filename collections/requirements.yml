@@ -1,3 +1,7 @@
 ---
 collections:
 - ansible.posix
+
+- name: awx.awx
+  source: https://galaxy.ansible.com
+  version: 15.0.1
