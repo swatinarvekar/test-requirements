@@ -1,7 +1,5 @@
 - name: test requirements
   hosts: localhost
-  roles:
-  - myrole
   collections:
   - awx.awx
   tasks:
