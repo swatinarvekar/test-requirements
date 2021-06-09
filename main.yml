@@ -2,3 +2,13 @@
   hosts: localhost
   roles:
   - myrole
+  collections:
+  - awx.awx
+  tasks:
+  - name: Copy tower project
+    tower_project:
+      name: copy
+      copy_from: second_repo
+      description: Foo copy project
+      organization: Default
+      state: present
