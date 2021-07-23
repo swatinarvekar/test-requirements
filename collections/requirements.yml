@@ -1,8 +1,8 @@
 ---
 collections:
-- ansible.posix
 
-- ansible.tower
+- name: ansible.tower
+  version: 3.8.3
 
 - name: awx.awx
   source: https://galaxy.ansible.com
